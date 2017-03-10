@@ -78,28 +78,19 @@
                     android:layout_marginTop="5dp"
                     android:ellipsize="end"
                     android:maxLines="3"
-                    android:text="微博：@LeBronSix"
+                    android:text="QQ：1361579914"
                     android:textColor="@color/white"
                     android:textSize="16dp"
                     android:textStyle="bold" />
 
-                <com.yuyh.library.view.text.AlignTextView
-                    android:id="@+id/tvWeiboUrl"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:ellipsize="end"
-                    android:maxLines="3"
-                    android:text="http://weibo.com/1879276162"
-                    android:textColor="@color/linkText"
-                    android:textStyle="bold" />
+
 
                 <com.yuyh.library.view.text.AlignTextView
                     android:id="@+id/tvEmail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="邮箱：smuyyh@gmail.com"
+                    android:text="邮箱：qixiaoyi02@gmail.com"
                     android:textColor="@color/white"
                     android:textSize="16dp"
                     android:textStyle="bold" />
@@ -118,7 +109,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="http://blog.csdn.net/yyh352091626"
+                    android:text="http://blog.csdn.net/pochenpiji159"
                     android:textColor="@color/linkText"
                     android:textStyle="bold" />
 

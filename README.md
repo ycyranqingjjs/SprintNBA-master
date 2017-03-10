@@ -20,15 +20,6 @@
 ### V1.0
 初次版本，含NBA新闻、视频花絮、赛程及文字直播、技术统计、球队及球员数据排行、详细资料，虎扑论坛专区。
 
-## 下载
-- APK本地下载：[SprintNBA-1.1.apk](https://raw.githubusercontent.com/smuyyh/SprintNBA/master/app/release/SprintNBA-1.1.apk)
-
-- 百度手机助手应用商店：[SprintNBA-1.1](http://shouji.baidu.com/software/10438052.html)
-
-- 百度91无线：[SprintNBA-1.1](http://apk.91.com/Soft/Android/com.yuyh.sprintnba-2.html)
-
-- 安卓市场：[SprintNBA-1.1](http://apk.hiapk.com/appinfo/com.yuyh.sprintnba/2)
-
 ## TODO
 
 *   [ ] 加入比赛视频直播(企鹅推出了球队通、联盟通... 简直不能忍啊！！)
@@ -36,7 +27,7 @@
 *   [ ] 虎扑论坛部分功能暂未完善
 *   [ ] 单支球队赛程
 *   [ ] 优化相关视频播放。腾讯视频真实地址提取功能不稳定，导致部分视频不能播放。
-*   [ ] 部分BUG修复（有疑问欢迎提[issue](https://github.com/smuyyh/SprintNBA/issues/new)）
+*   
 
 ## 应用截图
 
