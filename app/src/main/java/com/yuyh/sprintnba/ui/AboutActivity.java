@@ -23,8 +23,6 @@ public class AboutActivity extends BaseSwipeBackCompatActivity {
         context.startActivity(intent);
     }
 
-    @InjectView(R.id.tvWeiboUrl)
-    TextView tvWeiboUrl;
     @InjectView(R.id.tvBlog)
     TextView tvBlog;
 
@@ -36,16 +34,9 @@ public class AboutActivity extends BaseSwipeBackCompatActivity {
     @Override
     protected void initViewsAndEvents() {
         setTitle("关于");
-        tvWeiboUrl.getPaint().setFlags(Paint.UNDERLINE_TEXT_FLAG);
         tvBlog.getPaint().setFlags(Paint.UNDERLINE_TEXT_FLAG);
     }
 
-    @OnClick({R.id.tvWeiboUrl, R.id.tvWeiboName})
-    public void openWeibo() {
-        Intent intent = new Intent(this, BaseWebActivity.class);
-        intent.putExtra(BaseWebActivity.BUNDLE_KEY_URL, tvWeiboUrl.getText().toString().trim());
-        startActivity(intent);
-    }
 
     @OnClick(R.id.tvBlog)
     public void openBlog() {
